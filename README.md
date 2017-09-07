@@ -6,3 +6,20 @@ Tshmop是一个基于shmop,纯PHP开发的一个共享内存基础类
 
 以后的方向:
 后续会开发一个基于此的小而美的PHP开发的内存缓存服务器,以C/S的模式运行.可能会包含:key-value存储, session共享(实现单点登录),消息队列等功能.
+
+
+安装:
+-----
+
+    composer require toulen/tshmop:1.0
+
+
+使用:
+-----
+
+    $Tshmop = new \Tshmop\Tshmop();
+    //$data可以是数组,也可以是字符串
+    $Tshmop->put($data);
+    $Tshmop->get();
+    $Tshmop->clean();
+    $Tshmop->close();
