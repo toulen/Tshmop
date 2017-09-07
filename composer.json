@@ -1,5 +1,6 @@
 {
   "name": "toulen/tshmop",
+  "version": "1.0",
   "type": "library",
   "license": "LGPL",
   "authors": [
