@@ -1,0 +1,13 @@
+{
+  "name": "toulen/Tshmop",
+  "type": "library",
+  "license": "LGPL",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tshmop\\": "src/"
+    }
+  }
+}
