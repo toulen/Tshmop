@@ -2,6 +2,13 @@
   "name": "toulen/Tshmop",
   "type": "library",
   "license": "LGPL",
+  "authors": [
+    {
+      "name": "Yan Tao",
+      "email": "317136305@qq.com",
+      "homepage": "http://www.mqman.com"
+    }
+  ],
   "require": {
     "php": ">=5.4.0"
   },
